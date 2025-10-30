@@ -28,7 +28,6 @@ jobs:
 
             cd ${{ env.PROJECT_PATH }}
 
-
             git stash
             git pull
             git stash pop
